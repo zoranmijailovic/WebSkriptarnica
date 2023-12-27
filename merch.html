@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merch</title>
+    <link rel="stylesheet" href="merch.css">
+    <script src="merch.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h1>Pogledajte nase proizvode</h1>
+    </header>
+    <section class="container">
+        <div class="container-items">
+            <div class="item">
+                <span class="naslov-itema">Crni duks</span>
+                <img src="img/merch1.jpg" class="img-item">
+                <span class="cena-itema">2000</span>
+                <button class="item-button">Poruci proizvod</button>
+                <select name="size" id="size" class="size">
+                    <option value="small">S</option>
+                    <option value="medium">M</option>
+                    <option value="large">XL</option>
+                </select>
+            </div>
+            <div class="item">
+                <span class="naslov-itema">Beli duks</span>
+                <img src="img/merch0.jpg" class="img-item">
+                <span class="cena-itema">2500</span>
+                <button class="item-button">Poruci proizvod</button>
+                <select name="size" id="size">
+                    <option value="small">S</option>
+                    <option value="medium">M</option>
+                    <option value="large">XL</option>
+                </select>
+            </div>
+            <div class="item">
+                <span class="naslov-itema">Teget Majica</span>
+                <img src="img/merch2.jpg" class="img-item">
+                <span class="cena-itema">1000</span>
+                <button class="item-button">Poruci proizvod</button>
+                <select name="size" id="size">
+                    <option value="small">S</option>
+                    <option value="medium">M</option>
+                    <option value="large">XL</option>
+                </select>
+            </div>
+            <div class="item">
+                <span class="naslov-itema">Bela Majica</span>
+                <img src="img/merch3.jpg" class="img-item">
+                <span class="cena-itema">1000</span>
+                <button class="item-button">Poruci proizvod</button>
+                <select name="size" id="size">
+                    <option value="small">S</option>
+                    <option value="medium">M</option>
+                    <option value="large">XL</option>
+                </select>
+            </div>
+            <div class="item">
+                <span class="naslov-itema">Solja</span>
+                <img src="img/solja.jpg" class="img-item">
+                <span class="cena-itema">500</span>
+                <button class="item-button">Poruci proizvod</button>
+                <select name="size" id="size">
+                    <option value="small">S</option>
+                    <option value="medium">M</option>
+                    <option value="large">XL</option>
+                </select>
+            </div>
+            <div class="item">
+                <span class="naslov-itema">Torba</span>
+                <img src="img/torba.jpg" class="img-item">
+                <span class="cena-itema">1700</span>
+                <button class="item-button">Poruci proizvod</button>
+                <select name="size" id="size">
+                    <option value="small">S</option>
+                    <option value="medium">M</option>
+                    <option value="large">XL</option>
+                </select>
+            </div>
+            <div class="item">
+                <span class="naslov-itema">Lila Duks</span>
+                <img src="img/duks.jpg" class="img-item">
+                <span class="cena-itema">2200</span>
+                <button class="item-button">Poruci proizvod</button>
+                <select name="size" id="size">
+                    <option value="small">S</option>
+                    <option value="medium">M</option>
+                    <option value="large">XL</option>
+                </select>
+            </div>
+            <div class="item">
+                <span class="naslov-itema">Zenska majica</span>
+                <img src="img/majicazz.jpg" class="img-item">
+                <span class="cena-itema">1200</span>
+                <button class="item-button">Poruci proizvod</button>
+                <select name="size" id="size" class="size">
+                    <option value="small">S</option>
+                    <option value="medium">M</option>
+                    <option value="large">XL</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="korpa">
+            <div class="header-korpa">
+                <h2>Vasa korpa</h2>
+            </div>
+            
+            <div class="korpa-items">
+                 <!--  
+                <div class="korpa-item">
+                    <img src="img/merch1.jpg" alt="" width="80px">
+                    <div class="korpa-item-detalji">
+                        <span class="korpa-item-naslov">Crni duks</span>
+                        <div class="selector-iznosa">
+                            <i class="fa-solid fa-minus oduzmi-iznos"></i>
+                            <input type="text" value="1" class="korpa-item-iznos" disabled>
+                            <i class="fa-solid fa-plus saberi-iznos"></i>
+                        </div>
+                        <span class="korpa-item-cena">$20</span>
+                    </div>
+                    <span class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                    </span>
+                </div>
+
+                <div class="korpa-item">
+                    <img src="img/merch0.jpg" alt="" width="80px">
+                    <div class="korpa-item-detalji">
+                        <span class="korpa-item-naslov">Beli duks</span>
+                        <div class="selector-iznosa">
+                            <i class="fa-solid fa-minus oduzmi-iznos"></i>
+                            <input type="text" value="2" class="korpa-item-iznos" disabled>
+                            <i class="fa-solid fa-plus saberi-iznos"></i>
+                        </div>
+                        <span class="korpa-item-cena">$25</span>
+                    </div>
+                    <span class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                    </span>
+                </div>
+            -->
+           
+            </div>
+            <div class="korpa-total">
+                <div class="red">
+                    <strong>Ukupno</strong>
+                    <span class="kopra-cena-total">
+                        $0
+                    </span>
+                </div>
+                <button class="btn-plati">Kupi <i class="fa-solid fa-bag-shopping"></i></button>
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>

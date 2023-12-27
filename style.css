@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;;
+  line-height: 1.6;
+}
+.header1 {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  padding: 2rem 0;
+  background: rgb(52, 110, 235); 
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  max-width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+nav {
+  background-color: rgb(235, 189, 52);
+  text-align: center;
+  padding: 1rem 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+nav ul li a:hover {
+  color: rgb(52, 110, 235);;
+}
+
+/* Stil za dropdown meni */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Stil za link u meniju */
+.dropbtn {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+/* Stil za sadržaj dropdown menija */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Stil za opcije u dropdown meniju */
+.dropdown-content a {
+  color: white;
+  background-color: rgb(235, 189, 52);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Stil za opcije pri hoveru */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Prikazivanje dropdown menija kada je link aktivan */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.container-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex-basis: 30%;
+  text-align: center;
+  padding: 40px;
+  border: 1px solid #ddd;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.icon {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px 10px; 
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.download {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  background-color: rgb(235, 189, 52);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+footer {
+  
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: blue;
+  text-align: center;
+  padding: 1rem 0;
+  height: 100px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+.atag {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
